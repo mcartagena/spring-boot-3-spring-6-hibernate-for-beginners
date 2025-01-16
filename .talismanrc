@@ -1,0 +1,8 @@
+fileignoreconfig:
+- filename: 01-spring-boot-3-overview/01-spring-boot-demo/mvnw
+  checksum: 2b65879133b48d4ff8371ff7987f2dd356a003099ad86480798754bb2e9ca366
+- filename: 01-spring-boot-3-overview/02-dev-tools-demo/mvnw
+  checksum: b1bace76ce63c55f08c9115d0cbc7d849f0fb8c0f2f0501ef3985ef741fe70d4
+- filename: 01-spring-boot-3-overview/03-actuator-demo/mvnw
+  checksum: 2e0fb2a7da9d7bd3a4b4a54a9ae843b222f942f3f1bbf5ea31a764b44d4cc71f
+version: "1.0"
