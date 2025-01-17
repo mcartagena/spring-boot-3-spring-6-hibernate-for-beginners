@@ -5,4 +5,10 @@ fileignoreconfig:
   checksum: b1bace76ce63c55f08c9115d0cbc7d849f0fb8c0f2f0501ef3985ef741fe70d4
 - filename: 01-spring-boot-3-overview/03-actuator-demo/mvnw
   checksum: 2e0fb2a7da9d7bd3a4b4a54a9ae843b222f942f3f1bbf5ea31a764b44d4cc71f
+- filename: 01-spring-boot-3-overview/04-actuator-security-demo/mvnw
+  checksum: 8ee76688480c9739ddc266e5733080969aab9647a3b4b49909b8717319bffcbc
+- filename: 01-spring-boot-3-overview/05-command-line-demo/mvnw
+  checksum: 522947e67e3663ed87f8bc8b2bd5588b38e1c3481e4f167d8172ffce1bdcad4e
+- filename: 01-spring-boot-3-overview/06-properties-demo/mvnw
+  checksum: c2323bea76c66f67eba4f42cd8d28f188175fb18fd5234aeb31f58b41ee4b47c
 version: "1.0"
