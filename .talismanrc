@@ -11,4 +11,6 @@ fileignoreconfig:
   checksum: 522947e67e3663ed87f8bc8b2bd5588b38e1c3481e4f167d8172ffce1bdcad4e
 - filename: 01-spring-boot-3-overview/06-properties-demo/mvnw
   checksum: c2323bea76c66f67eba4f42cd8d28f188175fb18fd5234aeb31f58b41ee4b47c
+- filename: 02-spring-boot-3-spring-core/01-constructor-injection/mvnw
+  checksum: 69265ae4a70a5c2c2e17bf63d85d1b44791abefaff60de0ddef24392f571e6fb
 version: "1.0"
