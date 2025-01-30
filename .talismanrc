@@ -13,4 +13,8 @@ fileignoreconfig:
   checksum: c2323bea76c66f67eba4f42cd8d28f188175fb18fd5234aeb31f58b41ee4b47c
 - filename: 02-spring-boot-3-spring-core/01-constructor-injection/mvnw
   checksum: 69265ae4a70a5c2c2e17bf63d85d1b44791abefaff60de0ddef24392f571e6fb
+- filename: 02-spring-boot-3-spring-core/02-component-scanning/mvnw
+  checksum: 012b0f729e6619ae61020e2f2611f39141853e4d902be76a316dc263a0ff47bd
+- filename: 02-spring-boot-3-spring-core/03-setter-injection/mvnw
+  checksum: be583c444f9d763f7dbd91a0745590e9acd1804b9f5c701090727ae58ca88a37
 version: "1.0"
