@@ -19,4 +19,6 @@ fileignoreconfig:
   checksum: be583c444f9d763f7dbd91a0745590e9acd1804b9f5c701090727ae58ca88a37
 - filename: 02-spring-boot-3-spring-core/04-qualifiers/mvnw
   checksum: 28ae0fe5f7a10552915f3b742c4dd6f90e833990f16a2de789eefe2d9482f9c1
+- filename: 02-spring-boot-3-spring-core/05-primary/mvnw
+  checksum: 8fad6fec8f9a8b30d183bafeb16db309cbd86181c6b775c908a5b2e5b90d2c76
 version: "1.0"
