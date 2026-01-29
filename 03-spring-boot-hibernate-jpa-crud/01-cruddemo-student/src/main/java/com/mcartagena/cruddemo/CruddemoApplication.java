@@ -21,13 +21,13 @@ public class CruddemoApplication {
 	public CommandLineRunner commandLineRunner(StudentDAO studentDAO){
 		return runner -> {
 			// createStudent(studentDAO);
-			// createMultipleStudents(studentDAO);
+			createMultipleStudents(studentDAO);
 			// readStudent(studentDAO);
 			// queryForStudents(studentDAO);
 			// queryForStudentsByLastName(studentDAO);
 			// updateStudent(studentDAO);
 			// deleteStudent(studentDAO);
-			deleteAllStudents(studentDAO);
+			// deleteAllStudents(studentDAO);
 		};
 	}
 
@@ -51,7 +51,7 @@ public class CruddemoApplication {
 
 		// change first name to "Scooby"
 		System.out.println("Updating student ...");
-		myStudent.setFirstName("Cartagena");
+		myStudent.setFirstName("Fernando");
 
 		// update the student
 		studentDAO.update(myStudent);
@@ -63,7 +63,7 @@ public class CruddemoApplication {
 
 	private void queryForStudentsByLastName(StudentDAO studentDAO) {
 		// get a list of students
-		List<Student> theStudents = studentDAO.findByLastName("Marcelo");
+		List<Student> theStudents = studentDAO.findByLastName("Cartagena");
 
 		// display list of students
 		for(Student tempStudent: theStudents){
@@ -84,7 +84,7 @@ public class CruddemoApplication {
 	private void readStudent(StudentDAO studentDAO) {
 		// create a student object
 		System.out.println("Creating new student object ...");
-		Student tempStudent = new Student("Daffy","Duck","daffy@yahoo.com");
+		Student tempStudent = new Student("Duck","Daffy","daffy@yahoo.com");
 
 		// save the student
 		System.out.println("Saving the student ...");
@@ -106,9 +106,9 @@ public class CruddemoApplication {
 	private void createMultipleStudents(StudentDAO studentDAO) {
 		// create multiple students
 		System.out.println("Creating 3 student objects ...");
-		Student tempStudent1 = new Student("John","Doe","john@yahoo.com");
-		Student tempStudent2 = new Student("Mary","Public","mary@yahoo.com");
-		Student tempStudent3 = new Student("Bonita","Applebum","bonita@yahoo.com");
+		Student tempStudent1 = new Student("Doe","John","john@yahoo.com");
+		Student tempStudent2 = new Student("Public","Mary","mary@yahoo.com");
+		Student tempStudent3 = new Student("Applebum","Bonita","bonita@yahoo.com");
 
 		// save the student objects
 		System.out.println("Saving the students ...");
@@ -120,7 +120,7 @@ public class CruddemoApplication {
 	private void createStudent(StudentDAO studentDAO) {
 		// create the student object
 		System.out.println("Creating new student object...");
-		Student tempStudent = new Student("Marcelo","Cartagena","mc@yahoo.com");
+		Student tempStudent = new Student("Cartagena","Marcelo","mc@yahoo.com");
 
 		// save the student object
 		System.out.println("Saving the student ...");
