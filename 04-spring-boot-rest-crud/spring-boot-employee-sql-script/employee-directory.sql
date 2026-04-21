@@ -1,13 +1,12 @@
 CREATE DATABASE employee_directory;
 
 
-CREATE TABLE `employee` (
-  `id` int NOT NULL AUTO_INCREMENT,
-  `first_name` varchar(45) DEFAULT NULL,
-  `last_name` varchar(45) DEFAULT NULL,
-  `email` varchar(45) DEFAULT NULL,
-  PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=latin1;
+CREATE TABLE employee (
+  id SERIAL PRIMARY KEY,
+  first_name VARCHAR(45),
+  last_name VARCHAR(45),
+  email VARCHAR(45)
+);
 
 --
 -- Data for table `employee`
